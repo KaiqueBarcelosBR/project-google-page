@@ -37,6 +37,10 @@ header{
     font-size: 14px;
 }
 
+.nav-bar ul li{
+    margin-left: 15px;
+}
+
 .nav-bar ul li a{
     color: black;
 }
@@ -70,4 +74,137 @@ header{
 .circle-shadow:hover{
     background-color: rgb(0, 0, 0, 0.1);
     transition: 1s;
+}
+
+.content-section{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.contente-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.logo-img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.search-bar{
+    border: 1px solid lightgray;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.search-bar i{
+    font-size: 18px;
+    color: gray;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.search-bar input{
+    flex-grow: 1;
+    height: 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    border: none;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.search-btns{
+    margin-top: 20px;
+}
+
+.search-btns button{
+    height: 40px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: black;
+    background-color: #f2f3f4;
+    padding: 10px;
+}
+
+.search-btns button:hover{
+    border: 1px solid lightgray;
+}
+
+.google-search-btn{
+    width: 120px;
+}
+
+.lucky-search-btn{
+    width: 140px;
+}
+
+.language{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.language p a{
+    color: blue;
+}
+
+footer{
+    background-color: #f2f2f2;
+    height: 100px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.upper-footer{
+    height: 50%;
+    border-bottom: 1px solid lightgray;
+}
+
+.lower-footer{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-footer ul li a{
+    font-size: 12px;
+    color: gray;
+}
+
+.lower-footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.lower-left-footer{
+    display: flex;
+}
+
+.lower-left-footer li{
+    margin-right: 15px;
+}
+
+.lower-right-footer{
+    display: flex;
+}
+
+.lower-right-footer li{
+    margin-left: 15px;
 }
