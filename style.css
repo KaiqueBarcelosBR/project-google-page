@@ -208,3 +208,70 @@ footer{
 .lower-right-footer li{
     margin-left: 15px;
 }
+
+/* Responsividade */
+
+@media only screen and (max-width: 650px){
+
+    .nav-bar ul{
+        font-size: 10px;
+    }
+
+    .menu-icon, .user-icon span{
+        font-size: 14px;
+    }
+
+    .circle-shadow{
+        height: 30px;
+        width: 30px;
+    }
+
+    .logo-img{
+        width: 200px;
+    }
+
+    .search-bar{
+        width: 90%;
+        height: 35px;
+    }
+
+    .search-bar i{
+        font-size: 14px;
+    }
+
+    .search-btns button{
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .google-search-btn{
+        width: 120px;
+    }
+
+    .lucky-search-btn{
+        width: 120px;
+    }
+
+    .language{
+        font-size: 10px;
+    }
+
+    .footer{
+        height: 150px;
+    }
+
+    .upper-footer{
+        height: 50px;
+    }
+
+    .lower-footer{
+        height: 100px;
+        flex-direction: column;
+        background-color: #f2f2f2;
+    }
+
+    .lower-left-footer{
+        flex-wrap: wrap;
+    }
+
+}
